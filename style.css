@@ -32,3 +32,31 @@ nav a {
     width: 20px;
     margin-right: 1rem;
 }
+
+.npm {
+    width: 100px;
+}
+
+.magnifying-glass {
+    width: 20px;
+}
+
+.search-bar {
+    border: 1px solid lightgray;
+}
+
+.search-button {
+    border: 1px solid lightgray;
+}
+
+.join {
+    border: 1px solid black;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.log-in {
+    border: 1px solid black;
+    padding: 10px;
+    text-decoration: none;
+}
