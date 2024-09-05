@@ -4,59 +4,87 @@ body {
     font-family: 'Poppins';
 }
 
-header > div {
-    padding: 0 25px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid lightgray;
-}
 
-nav {
-    width: 600px;
-}
 
-nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+/** Header **/
 
-nav a {
-    text-decoration: none;
-    color: black;
-}
+    header > div {
+        padding: 0 25px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* border-bottom: 1px solid lightgray; */
+    }
 
-.blackHeart {
-    width: 20px;
-    margin-right: 1rem;
-}
+    #header {
+        border-bottom: 1px solid lightgray;
+    }
 
-.npm {
-    width: 100px;
-}
 
-.magnifying-glass {
-    width: 20px;
-}
 
-.search-bar {
-    border: 1px solid lightgray;
-}
+/** Nav Bar **/
 
-.search-button {
-    border: 1px solid lightgray;
-}
+    nav {
+        width: 600px;
+    }
 
-.join {
-    border: 1px solid black;
-    padding: 10px;
-    text-decoration: none;
-}
+    nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 
-.log-in {
-    border: 1px solid black;
-    padding: 10px;
-    text-decoration: none;
-}
+    nav a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .blackHeart {
+        width: 20px;
+        margin-right: 1rem;
+    }
+
+    .npm {
+        width: 100px;
+    }
+
+    .magnifying-glass {
+        width: 20px;
+        background-color: #F2F2F2;
+    }
+
+    .search {
+        display: flex;
+    }
+
+    .search-bar {
+        border: 1px solid lightgray;
+        background-color: #F2F2F2;
+    }
+
+    .search-button {
+        border: 1px solid lightgray;
+        color: white;
+        background-color: #FB3B49;
+    }
+
+    .join {
+        border: 1px solid black;
+        color: black;
+        padding: 10px;
+        text-decoration: none;
+    }
+
+    .log-in {
+        color: black;
+        padding: 10px;
+        text-decoration: none;
+    }
+
+
+/** Main 1 **/
+
+    #main1 {
+        background-color: #F7F4F4;
+    }
